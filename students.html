@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS | Students</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="cse.html">CSE</a><a href="ise.html">ISE</a><a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a><a href="mech.html">MECH</a><a href="civil.html">CIVIL</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero animated-bg" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1800&q=80')">
+      <div class="hero-content slide-in-left">
+        <h1 class="fade-in-up">Students</h1>
+        <p class="fade-in-up-delay">Empowering students with comprehensive support and opportunities</p>
+      </div>
+    </section>
+
+    <!-- Student Services Overview -->
+    <section class="section reveal">
+      <div class="container">
+        <h2 class="fade-in-up">Student Support Services</h2>
+        <p class="lead fade-in-up-delay">BMS College of Engineering provides comprehensive support services to ensure student success, well-being, and holistic development throughout their academic journey.</p>
+        <div class="grid three">
+          <article class="card hover-lift" onclick="window.location.href='students-clubs.html'" style="cursor: pointer;">
+            <h3>🎭 Student Clubs</h3>
+            <p>25+ student clubs including technical, cultural, and professional clubs for holistic development and leadership skills.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='students-achievements.html'" style="cursor: pointer;">
+            <h3>🏆 Student Achievements</h3>
+            <p>Celebrating academic excellence, competition success, sports achievements, and innovation awards of our talented students.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='students-services.html'" style="cursor: pointer;">
+            <h3>🛠️ Student Services</h3>
+            <p>Comprehensive support including academic counseling, career services, health & wellness, and financial support.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='students-resources.html'" style="cursor: pointer;">
+            <h3>📚 Student Resources</h3>
+            <p>Academic resources, software & tools, study materials, career development resources, and online learning platforms.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Statistics -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Student Success Metrics</h2>
+        <div class="stats-grid grid">
+          <div class="stat-card">
+            <span class="counter" data-target="5000">0</span>+
+            <p>Total Students</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="1500">0</span>+
+            <p>Club Members</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="100">0</span>+
+            <p>Awards Won</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="95">0</span>%
+            <p>Placement Rate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Life -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Student Life at BMS</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Academic Excellence</h3>
+            <p>Strong academic foundation with experienced faculty, modern infrastructure, and research opportunities.</p>
+          </article>
+          <article class="card">
+            <h3>Extracurricular Activities</h3>
+            <p>Diverse clubs, cultural events, sports competitions, and technical festivals for holistic development.</p>
+          </article>
+          <article class="card">
+            <h3>Industry Exposure</h3>
+            <p>Guest lectures, industrial visits, internships, and industry-academia collaborations.</p>
+          </article>
+          <article class="card">
+            <h3>Leadership Development</h3>
+            <p>Student council, club leadership, event management, and organizational skills development.</p>
+          </article>
+          <article class="card">
+            <h3>Innovation & Entrepreneurship</h3>
+            <p>Innovation center, startup incubation, hackathons, and entrepreneurship development programs.</p>
+          </article>
+          <article class="card">
+            <h3>Community Service</h3>
+            <p>Social responsibility programs, community outreach, and environmental initiatives.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Support Systems -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Support Systems</h2>
+        <div class="grid two">
+          <div>
+            <h3>Academic Support</h3>
+            <ul>
+              <li>Professional academic counseling</li>
+              <li>Peer tutoring programs</li>
+              <li>Study skills workshops</li>
+              <li>Individual learning plans</li>
+              <li>Faculty mentorship</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Personal Support</h3>
+            <ul>
+              <li>Mental health counseling</li>
+              <li>Health and wellness programs</li>
+              <li>Financial assistance</li>
+              <li>Hostel support services</li>
+              <li>24/7 emergency helpline</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Council -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Student Council</h2>
+        <div class="card">
+          <p>The Student Council represents student interests, organizes events, and serves as the bridge between students and administration. It provides leadership opportunities and ensures student participation in college governance.</p>
+          <div class="grid three" style="margin-top: 1rem;">
+            <div>
+              <h4>Leadership Roles</h4>
+              <ul>
+                <li>President</li>
+                <li>Vice Presidents</li>
+                <li>Department Representatives</li>
+                <li>Cultural Coordinators</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Responsibilities</h4>
+              <ul>
+                <li>Event organization</li>
+                <li>Student representation</li>
+                <li>Club coordination</li>
+                <li>College governance</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Development</h4>
+              <ul>
+                <li>Leadership training</li>
+                <li>Management skills</li>
+                <li>Communication skills</li>
+                <li>Team building</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>BMS College of Engineering</h3>
+        <p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p>
+        <p>Email: admissions@bmsce.ac.in</p>
+        <p>Phone: +91 80 2662 2130</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="placements.html">Placements</a></p>
+        <p><a href="admission.html">Admission</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

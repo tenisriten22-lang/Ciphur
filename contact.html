@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="cse.html">CSE</a><a href="ise.html">ISE</a><a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a><a href="mech.html">MECH</a><a href="civil.html">CIVIL</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1800&q=80')">
+      <div class="hero-content">
+        <h1>Contact Us</h1>
+        <p>Get in touch with BMS College of Engineering</p>
+      </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Contact Information</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Address</h3>
+            <p><strong>BMS College of Engineering</strong><br>
+            Bull Temple Road<br>
+            Basavanagudi<br>
+            Bengaluru, Karnataka 560019<br>
+            India</p>
+          </article>
+          <article class="card">
+            <h3>Phone</h3>
+            <p><strong>General Office:</strong><br>
+            +91 80 2662 2130<br><br>
+            <strong>Admissions:</strong><br>
+            +91 80 2662 2131<br><br>
+            <strong>Placements:</strong><br>
+            +91 80 2662 2132</p>
+          </article>
+          <article class="card">
+            <h3>Email</h3>
+            <p><strong>General:</strong><br>
+            info@bmsce.ac.in<br><br>
+            <strong>Admissions:</strong><br>
+            admissions@bmsce.ac.in<br><br>
+            <strong>Placements:</strong><br>
+            placements@bmsce.ac.in</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form and Map -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="contact-grid grid">
+          <div class="contact-form">
+            <h3>Send us a Message</h3>
+            <form id="contactForm">
+              <div>
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div>
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div>
+                <label for="subject">Subject *</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div>
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="form-message" id="formMessage"></div>
+          </div>
+          <div class="map-panel">
+            <h3>Location</h3>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9457799655!2d77.56586531482264!3d12.938024490859966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1590c4c4c4c4%3A0x4c4c4c4c4c4c4c4!2sBMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1234567890"
+              width="100%" 
+              height="300" 
+              style="border:0; border-radius: 10px;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Office Hours -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Office Hours</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Administrative Office</h3>
+            <p><strong>Monday - Friday:</strong><br>
+            9:00 AM - 5:30 PM<br><br>
+            <strong>Saturday:</strong><br>
+            9:00 AM - 1:00 PM<br><br>
+            <strong>Sunday:</strong><br>
+            Closed</p>
+          </article>
+          <article class="card">
+            <h3>Admission Office</h3>
+            <p><strong>Monday - Saturday:</strong><br>
+            9:00 AM - 5:00 PM<br><br>
+            <strong>Sunday:</strong><br>
+            10:00 AM - 2:00 PM<br><br>
+            <strong>Holiday:</strong><br>
+            Open with limited staff</p>
+          </article>
+          <article class="card">
+            <h3>Placement Office</h3>
+            <p><strong>Monday - Friday:</strong><br>
+            9:00 AM - 6:00 PM<br><br>
+            <strong>Saturday:</strong><br>
+            10:00 AM - 4:00 PM<br><br>
+            <strong>Sunday:</strong><br>
+            Closed</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Department Contacts -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Department Contacts</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Computer Science</h3>
+            <p><strong>HOD:</strong> Dr. Ramesh Kumar<br>
+            <strong>Phone:</strong> +91 80 2662 2130 ext. 245<br>
+            <strong>Email:</strong> hod.cse@bmsce.ac.in</p>
+          </article>
+          <article class="card">
+            <h3>Information Science</h3>
+            <p><strong>HOD:</strong> Dr. Anita Desai<br>
+            <strong>Phone:</strong> +91 80 2662 2130 ext. 246<br>
+            <strong>Email:</strong> hod.ise@bmsce.ac.in</p>
+          </article>
+          <article class="card">
+            <h3>Electronics & Comm.</h3>
+            <p><strong>HOD:</strong> Dr. Suresh Kumar<br>
+            <strong>Phone:</strong> +91 80 2662 2130 ext. 247<br>
+            <strong>Email:</strong> hod.ece@bmsce.ac.in</p>
+          </article>
+          <article class="card">
+            <h3>Electrical & Electronics</h3>
+            <p><strong>HOD:</strong> Dr. Vijay Kumar<br>
+            <strong>Phone:</strong> +91 80 2662 2130 ext. 248<br>
+            <strong>Email:</strong> hod.eee@bmsce.ac.in</p>
+          </article>
+          <article class="card">
+            <h3>Mechanical Engineering</h3>
+            <p><strong>HOD:</strong> Dr. Mohan Kumar<br>
+            <strong>Phone:</strong> +91 80 2662 2130 ext. 249<br>
+            <strong>Email:</strong> hod.mech@bmsce.ac.in</p>
+          </article>
+          <article class="card">
+            <h3>Civil Engineering</h3>
+            <p><strong>HOD:</strong> Dr. Suresh Babu<br>
+            <strong>Phone:</strong> +91 80 2662 2130 ext. 250<br>
+            <strong>Email:</strong> hod.civil@bmsce.ac.in</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Connect With Us</h2>
+        <div class="card">
+          <h3>Follow Us on Social Media</h3>
+          <p>Stay updated with the latest news, events, and announcements from BMS College of Engineering.</p>
+          <div class="social-links" style="margin-top: 1rem;">
+            <a href="#" class="btn btn-primary">Facebook</a>
+            <a href="#" class="btn btn-primary">Instagram</a>
+            <a href="#" class="btn btn-primary">Twitter</a>
+            <a href="#" class="btn btn-primary">LinkedIn</a>
+            <a href="#" class="btn btn-primary">YouTube</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>BMS College of Engineering</h3>
+        <p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p>
+        <p>Email: admissions@bmsce.ac.in</p>
+        <p>Phone: +91 80 2662 2130</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="admission.html">Admission</a></p>
+        <p><a href="placements.html">Placements</a></p>
+        <p><a href="research.html">Research</a></p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

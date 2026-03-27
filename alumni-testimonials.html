@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS | Alumni Testimonials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="cse.html">CSE</a><a href="ise.html">ISE</a><a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a><a href="mech.html">MECH</a><a href="civil.html">CIVIL</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1800&q=80')">
+      <div class="hero-content">
+        <h1>Alumni Testimonials</h1>
+        <p>What our alumni say about their BMS experience</p>
+      </div>
+    </section>
+
+    <!-- Testimonials by Decade -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Recent Alumni Testimonials</h2>
+        <div class="testimonial-slider" id="testimonialSlider">
+          <article class="testimonial active">
+            <p>"BMS College of Engineering transformed my life. The excellent faculty, practical approach to learning, and strong industry connections helped me secure my dream job at Microsoft. I'm forever grateful for the foundation BMS provided."</p>
+            <h4>- Rajesh Kumar, CSE 2018, Microsoft</h4>
+          </article>
+          <article class="testimonial">
+            <p>"The hands-on experience and research opportunities at BMS were exceptional. The faculty mentored me throughout my journey, and the entrepreneurship cell helped me start my own company. BMS truly prepares you for success."</p>
+            <h4>- Priya Sharma, ISE 2019, TechStart Founder</h4>
+          </article>
+          <article class="testimonial">
+            <p>"The placement training at BMS was outstanding. The mock interviews, technical sessions, and soft skills development helped me crack my dream job at Google. The alumni network is also very supportive."</p>
+            <h4>- Anand Patel, ECE 2017, Google</h4>
+          </article>
+          <article class="testimonial">
+            <p>"BMS provided me with the perfect blend of theoretical knowledge and practical skills. The industry visits and guest lectures gave me real-world insights. Today I'm leading a team at Amazon, thanks to BMS."</p>
+            <h4>- Vikram Reddy, MECH 2016, Amazon</h4>
+          </article>
+          <article class="testimonial">
+            <p>"The research culture at BMS inspired me to pursue higher studies. The faculty guidance and research projects helped me secure admission to MIT. BMS truly nurtures innovation and critical thinking."</p>
+            <h4>- Sarah Johnson, CSE 2015, MIT Professor</h4>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Department-wise Testimonials -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Department-wise Testimonials</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Computer Science & Engineering</h3>
+            <p>"The CSE department at BMS is exceptional. The curriculum is industry-relevant, and the faculty are highly experienced. The placement support is outstanding with top companies recruiting from campus."</p>
+            <p><strong>- Amit Singh, CSE 2020, Microsoft</strong></p>
+          </article>
+          <article class="card">
+            <h3>Information Science & Engineering</h3>
+            <p>"ISE department provided me with strong fundamentals in data science and information systems. The projects and internships helped me build practical skills for my career at Google."</p>
+            <p><strong>- Anjali Nair, ISE 2021, Google</strong></p>
+          </article>
+          <article class="card">
+            <h3>Electronics & Communication</h3>
+            <p>"The ECE department has excellent labs and research facilities. The faculty guidance helped me secure a position at Intel. The industry connections are invaluable for career growth."</p>
+            <p><strong>- Karthik Reddy, ECE 2020, Intel</strong></p>
+          </article>
+          <article class="card">
+            <h3>Electrical & Electronics</h3>
+            <p>"EEE department provided strong fundamentals in power systems and electronics. The practical training and industry visits prepared me well for my role at Bosch."</p>
+            <p><strong>- Mohan Reddy, EEE 2019, Bosch</strong></p>
+          </article>
+          <article class="card">
+            <h3>Mechanical Engineering</h3>
+            <p>"The MECH department has excellent workshop facilities and experienced faculty. The design projects and CAD training helped me excel in my career at Tata Motors."</p>
+            <p><strong>- Sunil Kumar, MECH 2018, Tata Motors</strong></p>
+          </article>
+          <article class="card">
+            <h3>Civil Engineering</h3>
+            <p>"Civil department provided strong fundamentals in structural engineering and construction management. The site visits and practical training prepared me for my role at L&T."</p>
+            <p><strong>- Ravi Kumar, CIVIL 2019, L&T</strong></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- International Alumni -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>International Alumni Testimonials</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Dr. Michael Chen - USA</h3>
+            <p class="subheading">Research Scientist, NASA</p>
+            <p>"BMS provided me with the foundation to pursue my dreams in space research. The quality of education and research opportunities at BMS are world-class."</p>
+          </article>
+          <article class="card">
+            <h3>Emily Watson - UK</h3>
+            <p class="subheading">Software Engineer, DeepMind</p>
+            <p>"The AI and machine learning training at BMS helped me secure my dream job at DeepMind. The faculty mentorship was exceptional throughout my journey."</p>
+          </article>
+          <article class="card">
+            <h3>David Lee - Canada</h3>
+            <p class="subheading">Product Manager, Shopify</p>
+            <p>"BMS prepared me for the global tech industry. The practical approach to learning and industry connections helped me succeed internationally."</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Entrepreneur Testimonials -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Entrepreneur Testimonials</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Vikram Reddy - TechStart Solutions</h3>
+            <p>"The entrepreneurship cell at BMS provided me with the mentorship and resources to start my own company. The alumni network and industry connections were invaluable."</p>
+            <p><strong>Achievement:</strong> Built ₹50 crore company</p>
+          </article>
+          <article class="card">
+            <h3>Kavita Patel - GreenTech Innovations</h3>
+            <p>"BMS inspired me to solve real-world problems through technology. The research opportunities and faculty guidance helped me build a successful startup."</p>
+            <p><strong>Achievement:</strong> Pioneer in green technology</p>
+          </article>
+          <article class="card">
+            <h3>Rohit Kumar - Energy Systems</h3>
+            <p>"The practical training and industry exposure at BMS helped me understand the energy sector and start my own company in renewable energy."</p>
+            <p><strong>Achievement:</strong> Leading renewable energy solutions</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Testimonials -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Video Testimonials</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Career Success Stories</h3>
+            <p>Watch videos of successful alumni sharing their career journeys and experiences at BMS.</p>
+            <p><strong>Format:</strong> Video testimonials</p>
+            <p><strong>Duration:</strong> 5-10 minutes each</p>
+          </article>
+          <article class="card">
+            <h3>Entrepreneurship Journey</h3>
+            <p>Alumni entrepreneurs share their startup journeys and how BMS helped them achieve their dreams.</p>
+            <p><strong>Format:</strong> Video interviews</p>
+            <p><strong>Duration:</strong> 8-12 minutes each</p>
+          </article>
+          <article class="card">
+            <h3>International Success</h3>
+            <p>Alumni working abroad share their international career experiences and global success stories.</p>
+            <p><strong>Format:</strong> Video testimonials</p>
+            <p><strong>Duration:</strong> 6-10 minutes each</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Alumni Feedback -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Alumni Feedback</h2>
+        <div class="stats-grid grid">
+          <div class="stat-card">
+            <span class="counter" data-target="95">0</span>%
+            <p>Satisfied with Education</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="90">0</span>%
+            <p>Successful Careers</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="85">0</span>%
+            <p>Recommend BMS</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="100">0</span>%
+            <p>Proud Alumni</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>BMS College of Engineering</h3>
+        <p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p>
+        <p>Email: admissions@bmsce.ac.in</p>
+        <p>Phone: +91 80 2662 2130</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="alumni.html">Back to Alumni</a></p>
+        <p><a href="alumni-stories.html">Success Stories</a></p>
+        <p><a href="alumni-gallery.html">Gallery</a></p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

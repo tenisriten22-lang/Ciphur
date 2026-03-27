@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS | Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="cse.html">CSE</a><a href="ise.html">ISE</a><a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a><a href="mech.html">MECH</a><a href="civil.html">CIVIL</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero animated-bg" style="background-image: url('https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=1800&q=80')">
+      <div class="hero-content slide-in-left">
+        <h1 class="fade-in-up">Research</h1>
+        <p class="fade-in-up-delay">Advancing knowledge through innovative research and development</p>
+      </div>
+    </section>
+
+    <!-- Research Overview -->
+    <section class="section reveal">
+      <div class="container">
+        <h2 class="fade-in-up">Explore Research Domains</h2>
+        <p class="lead fade-in-up-delay">BMS College of Engineering is committed to fostering cutting-edge research across all engineering disciplines. Our research ecosystem encompasses advanced laboratories, funded projects, publications, and innovation initiatives.</p>
+        <div class="grid three">
+          <article class="card hover-lift" onclick="window.location.href='research-labs.html'" style="cursor: pointer;">
+            <h3>🔬 Research Laboratories</h3>
+            <p>State-of-the-art research facilities including AI/ML labs, VLSI design, robotics, IoT, embedded systems, and materials characterization labs.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='research-projects.html'" style="cursor: pointer;">
+            <h3>🚀 Ongoing Projects</h3>
+            <p>25+ active research projects funded by government agencies, industry partners, and international grants in emerging technologies.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='research-publications.html'" style="cursor: pointer;">
+            <h3>📚 Research Publications</h3>
+            <p>250+ research papers published in international journals and conferences, 15+ patents filed, and 50+ book chapters authored.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='research-innovation.html'" style="cursor: pointer;">
+            <h3>💡 Innovation Center</h3>
+            <p>Startup incubation, innovation challenges, entrepreneurship development, and industry collaboration programs.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='research-funding.html'" style="cursor: pointer;">
+            <h3>💰 Research Funding</h3>
+            <p>Government grants, industry collaborations, international funding, and research support services.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Statistics -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Research Impact</h2>
+        <div class="stats-grid grid">
+          <div class="stat-card">
+            <span class="counter" data-target="25">0</span>+
+            <p>Research Labs</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="250">0</span>+
+            <p>Publications</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="8">0</span>+
+            <p>Crores Funding</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="15">0</span>+
+            <p>Patents Filed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Areas -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Research Focus Areas</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Artificial Intelligence</h3>
+            <p>Machine learning, deep learning, computer vision, natural language processing, and AI applications.</p>
+          </article>
+          <article class="card">
+            <h3>Internet of Things</h3>
+            <p>Smart systems, sensor networks, embedded systems, and connected device technologies.</p>
+          </article>
+          <article class="card">
+            <h3>Renewable Energy</h3>
+            <p>Solar energy, wind power, energy storage, and sustainable energy systems research.</p>
+          </article>
+          <article class="card">
+            <h3>Advanced Materials</h3>
+            <p>Smart materials, nanotechnology, composites, and material characterization.</p>
+          </article>
+          <article class="card">
+            <h3>Robotics & Automation</h3>
+            <p>Industrial robotics, autonomous systems, mechatronics, and automation technologies.</p>
+          </article>
+          <article class="card">
+            <h3>Biomedical Engineering</h3>
+            <p>Medical devices, healthcare technology, and biomedical applications.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Collaborations -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Research Collaborations</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Industry Partners</h3>
+            <p>Collaborations with leading companies including Microsoft, Google, Infosys, TCS, Bosch, and Intel.</p>
+          </article>
+          <article class="card">
+            <h3>Academic Partners</h3>
+            <p>Partnerships with IITs, IISc, and international universities for joint research programs.</p>
+          </article>
+          <article class="card">
+            <h3>Government Agencies</h3>
+            <p>Funding and support from DST, AICTE, DRDO, ISRO, and other government organizations.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>BMS College of Engineering</h3>
+        <p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p>
+        <p>Email: admissions@bmsce.ac.in</p>
+        <p>Phone: +91 80 2662 2130</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="placements.html">Placements</a></p>
+        <p><a href="admission.html">Admission</a></p>
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

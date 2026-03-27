@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS | Campus Life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="cse.html">CSE</a><a href="ise.html">ISE</a><a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a><a href="mech.html">MECH</a><a href="civil.html">CIVIL</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero animated-bg" style="background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1800&q=80')">
+      <div class="hero-content slide-in-left">
+        <h1 class="fade-in-up">Campus Life</h1>
+        <p class="fade-in-up-delay">Vibrant, diverse, and enriching campus experience</p>
+      </div>
+    </section>
+
+    <!-- Campus Life Overview -->
+    <section class="section reveal">
+      <div class="container">
+        <h2 class="fade-in-up">Explore Campus Life</h2>
+        <p class="lead fade-in-up-delay">BMS College of Engineering offers a vibrant campus life with numerous opportunities for students to explore their interests, develop skills, and create lasting memories.</p>
+        <div class="grid three">
+          <article class="card hover-lift" onclick="window.location.href='campuslife-clubs.html'" style="cursor: pointer;">
+            <h3>🎭 Student Clubs</h3>
+            <p>Technical, cultural, and professional clubs for holistic development. IEEE, ACM, Music, Dance, Drama, Literary, Photography, Entrepreneurship, and more.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='campuslife-sports.html'" style="cursor: pointer;">
+            <h3>⚽ Sports & Athletics</h3>
+            <p>Comprehensive sports facilities including indoor and outdoor sports. Basketball, Cricket, Football, Tennis, Volleyball, Athletics, Swimming, and more.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='campuslife-cultural.html'" style="cursor: pointer;">
+            <h3>🎨 Cultural Events</h3>
+            <p>Annual festivals, department events, workshops, and competitions. TechnoCultural fest, department festivals, cultural competitions, and workshops.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='campuslife-hostel.html'" style="cursor: pointer;">
+            <h3>🏠 Hostel Facilities</h3>
+            <p>Comfortable and secure accommodation with modern amenities. Separate hostels for boys and girls with mess, recreation, and study facilities.</p>
+          </article>
+          <article class="card hover-lift" onclick="window.location.href='campuslife-facilities.html'" style="cursor: pointer;">
+            <h3>🏛️ Campus Facilities</h3>
+            <p>State-of-the-art infrastructure supporting academic and extracurricular activities. Library, labs, sports complex, cafeteria, and more.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Campus Life Statistics</h2>
+        <div class="stats-grid grid">
+          <div class="stat-card">
+            <span class="counter" data-target="25">0</span>+
+            <p>Active Clubs</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="1500">0</span>+
+            <p>Club Members</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="50">0</span>+
+            <p>Events per Year</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="500">0</span>+
+            <p>Sports Participants</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Life Features -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Student Life Features</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Leadership Opportunities</h3>
+            <p>Student council, club leadership, event management, and organizational roles to develop leadership skills.</p>
+          </article>
+          <article class="card">
+            <h3>Skill Development</h3>
+            <p>Workshops, training programs, competitions, and hands-on experiences to enhance practical skills.</p>
+          </article>
+          <article class="card">
+            <h3>Community Engagement</h3>
+            <p>Social responsibility programs, community service, outreach activities, and environmental initiatives.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus Image Gallery -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Campus Life Gallery</h2>
+        <div class="gallery-grid grid">
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=900&q=80" alt="Campus Building" />
+            <figcaption>Main Campus</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1559028012-c7547e937d64?auto=format&fit=crop&w=900&q=80" alt="Cultural Event" />
+            <figcaption>Cultural Festival</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80" alt="Sports Ground" />
+            <figcaption>Sports Ground</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>BMS College of Engineering</h3>
+        <p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p>
+        <p>Email: admissions@bmsce.ac.in</p>
+        <p>Phone: +91 80 2662 2130</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="admission.html">Admission</a></p>
+        <p><a href="placements.html">Placements</a></p>
+        <p><a href="research.html">Research</a></p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

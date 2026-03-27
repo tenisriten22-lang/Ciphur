@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS | Placements</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="cse.html">CSE</a><a href="ise.html">ISE</a><a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a><a href="mech.html">MECH</a><a href="civil.html">CIVIL</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero animated-bg" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1800&q=80')">
+      <div class="hero-content slide-in-left">
+        <h1 class="fade-in-up">Placements</h1>
+        <p class="fade-in-up-delay">Career-focused ecosystem with training, internship, and recruitment excellence</p>
+      </div>
+    </section>
+
+    <!-- Introduction -->
+    <section class="section reveal">
+      <div class="container">
+        <h2 class="fade-in-up">Introduction</h2>
+        <p class="lead fade-in-up-delay">The Training and Placement Cell at BMS College of Engineering is dedicated to providing comprehensive career development and placement support to our students. We maintain strong industry connections and provide structured training programs to ensure our students are career-ready.</p>
+        <p class="fade-in-up-delay">Our placement ecosystem encompasses aptitude development, technical training, soft skills enhancement, and personalized career counseling. We partner with leading organizations across various sectors to create diverse opportunities for our students.</p>
+        <div class="grid two">
+          <article class="card hover-lift">
+            <h3>Our Vision</h3>
+            <p>To empower every student with the skills, confidence, and opportunities to build successful careers in their chosen fields.</p>
+          </article>
+          <article class="card hover-lift">
+            <h3>Our Mission</h3>
+            <p>To bridge the gap between academia and industry through structured training programs and strong corporate partnerships.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Placement Statistics -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Placement Statistics</h2>
+        <div class="stats-grid grid">
+          <div class="stat-card">
+            <span class="counter" data-target="95">0</span>%
+            <p>Placement Rate</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="220">0</span>+
+            <p>Recruiting Companies</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="43">0</span>
+            <p>Highest LPA</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="10">0</span>
+            <p>Average LPA</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Placement Sections -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Explore Placement Domains</h2>
+        <div class="grid three">
+          <article class="card" onclick="window.location.href='placements-internships.html'" style="cursor: pointer;">
+            <h3>🚀 Internships</h3>
+            <p>Structured internship programs with leading companies. Summer internships, year-long projects, research opportunities, and startup internships.</p>
+          </article>
+          <article class="card" onclick="window.location.href='placements-companies.html'" style="cursor: pointer;">
+            <h3>🏢 Top Companies</h3>
+            <p>Dream companies, core engineering firms, IT services giants, consulting firms, and innovative startups recruiting from BMS.</p>
+          </article>
+          <article class="card" onclick="window.location.href='placements-training.html'" style="cursor: pointer;">
+            <h3>📚 Training Programs</h3>
+            <p>Comprehensive training including technical skills, aptitude development, soft skills, interview preparation, and certifications.</p>
+          </article>
+          <article class="card" onclick="window.location.href='placements-testimonials.html'" style="cursor: pointer;">
+            <h3>💬 Student Testimonials</h3>
+            <p>Success stories from our talented students across all departments. Real experiences and placement journeys.</p>
+          </article>
+          <article class="card" onclick="window.location.href='placements-gallery.html'" style="cursor: pointer;">
+            <h3>📸 Placement Gallery</h3>
+            <p>Campus placement drives, interview sessions, training programs, success celebrations, and industry interactions.</p>
+          </article>
+          <article class="card">
+            <h3>📊 Branch-wise Placements</h3>
+            <p>CSE: 98% | ISE: 96% | ECE: 94% | EEE: 92% | MECH: 93% | CIVIL: 90%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Recruiters -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Top Recruiters</h2>
+        <div class="company-logos">
+          <div class="logo-grid">
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white" alt="Microsoft" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white" alt="Amazon" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Apple-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Apple" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/IBM-054ADA?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Intel" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Infosys-0078D4?style=for-the-badge&logo=infosys&logoColor=white" alt="Infosys" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/TCS-0078D4?style=for-the-badge&logo=tcs&logoColor=white" alt="TCS" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Wipro-005BAC?style=for-the-badge&logo=wipro&logoColor=white" alt="Wipro" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Accenture-A10035?style=for-the-badge&logo=accenture&logoColor=white" alt="Accenture" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Deloitte-86BC25?style=for-the-badge&logo=deloitte&logoColor=white" alt="Deloitte" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Capgemini-0078D4?style=for-the-badge&logo=capgemini&logoColor=white" alt="Capgemini" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Adobe-FF0000?style=for-the-badge&logo=adobe&logoColor=white" alt="Adobe" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" alt="Salesforce" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle" />
+            </div>
+            <div class="logo-item">
+              <img src="https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white" alt="SAP" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Highlights -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Quick Highlights</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Industry Partnerships</h3>
+            <p>Strong collaborations with 220+ companies across various sectors for internships and placements.</p>
+          </article>
+          <article class="card">
+            <h3>Training Excellence</h3>
+            <p>Comprehensive training programs with 95% success rate in placement preparation.</p>
+          </article>
+          <article class="card">
+            <h3>Career Support</h3>
+            <p>Personalized career counseling, resume building, and interview preparation for all students.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>BMS College of Engineering</h3>
+        <p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p>
+        <p>Email: admissions@bmsce.ac.in</p>
+        <p>Phone: +91 80 2662 2130</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="admission.html">Admission</a></p>
+        <p><a href="placements.html">Placements</a></p>
+        <p><a href="research.html">Research</a></p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

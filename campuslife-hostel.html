@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS | Hostel Facilities</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="cse.html">CSE</a><a href="ise.html">ISE</a><a href="ece.html">ECE</a>
+            <a href="eee.html">EEE</a><a href="mech.html">MECH</a><a href="civil.html">CIVIL</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Hero -->
+    <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1566076378-c2a6ddb2e6c0?auto=format&fit=crop&w=1800&q=80')">
+      <div class="hero-content">
+        <h1>Hostel Facilities</h1>
+        <p>Comfortable and secure accommodation for students</p>
+      </div>
+    </section>
+
+    <!-- Boys Hostel -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Boys Hostel</h2>
+        <div class="grid two">
+          <div>
+            <h3>Accommodation Features</h3>
+            <ul>
+              <li>Spacious rooms with modern furniture</li>
+              <li>24/7 security and CCTV surveillance</li>
+              <li>Wi-Fi connectivity throughout the building</li>
+              <li>Attached bathrooms with modern fixtures</li>
+              <li>Individual study tables and chairs</li>
+              <li>Wardrobes and storage space</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Facilities & Amenities</h3>
+            <ul>
+              <li>Mess with nutritious food options</li>
+              <li>Recreation room with TV and games</li>
+              <li>Study rooms and library access</li>
+              <li>Gymnasium and fitness center</li>
+              <li>Laundry services</li>
+              <li>Medical assistance on call</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stats-grid grid" style="margin-top: 1rem;">
+          <div class="stat-card">
+            <span class="counter" data-target="500">0</span>+
+            <p>Students Capacity</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="150">0</span>+
+            <p>Rooms Available</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="2">0</span>
+            <p>Hostel Blocks</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="24">0</span>/7
+            <p>Security</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Girls Hostel -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Girls Hostel</h2>
+        <div class="grid two">
+          <div>
+            <h3>Accommodation Features</h3>
+            <ul>
+              <li>Secure and comfortable accommodation</li>
+              <li>Round-the-clock security</li>
+              <li>High-speed internet facility</li>
+              <li>Modern bathrooms and utilities</li>
+              <li>Individual study areas</li>
+              <li>Ample storage space</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Facilities & Amenities</h3>
+            <ul>
+              <li>Hygienic mess with varied menu</li>
+              <li>Indoor games and recreation area</li>
+              <li>Prayer room and meditation space</li>
+              <li>Medical facilities with female staff</li>
+              <li>Beauty parlor services</li>
+              <li>Counseling services</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stats-grid grid" style="margin-top: 1rem;">
+          <div class="stat-card">
+            <span class="counter" data-target="400">0</span>+
+            <p>Students Capacity</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="120">0</span>+
+            <p>Rooms Available</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="2">0</span>
+            <p>Hostel Blocks</p>
+          </div>
+          <div class="stat-card">
+            <span class="counter" data-target="24">0</span>/7
+            <p>Security</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Room Types -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Room Types</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Single Occupancy</h3>
+            <p>Private rooms for individual students with attached bathroom.</p>
+            <p><strong>Features:</strong> Private bathroom, study area, wardrobe, internet</p>
+            <p><strong>Capacity:</strong> 1 student per room</p>
+            <p><strong>Availability:</strong> Limited, first-come basis</p>
+          </article>
+          <article class="card">
+            <h3>Double Occupancy</h3>
+            <p>Shared rooms for two students with common bathroom.</p>
+            <p><strong>Features:</strong> Shared bathroom, individual study areas, storage</p>
+            <p><strong>Capacity:</strong> 2 students per room</p>
+            <p><strong>Availability:</strong> Good availability</p>
+          </article>
+          <article class="card">
+            <h3>Triple Occupancy</h3>
+            <p>Economical option for three students with shared facilities.</p>
+            <p><strong>Features:</strong> Shared bathroom, study areas, storage</p>
+            <p><strong>Capacity:</strong> 3 students per room</p>
+            <p><strong>Availability:</strong> Most economical option</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mess Facilities -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Mess Facilities</h2>
+        <div class="grid two">
+          <div>
+            <h3>Dining Hall Features</h3>
+            <ul>
+              <li>Modern dining halls with seating capacity 500+</li>
+              <li>Hygienic and clean environment</li>
+              <li>Professional kitchen staff</li>
+              <li>Food quality monitoring committee</li>
+              <li>Feedback system for improvement</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Food Services</h3>
+            <ul>
+              <li>Vegetarian and non-vegetarian options</li>
+              <li>Four meals per day (breakfast, lunch, snacks, dinner)</li>
+              <li>Special diet options on request</li>
+              <li>Festival and special occasion menus</li>
+              <li>Cafeteria for additional food options</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" style="margin-top: 1rem;">
+          <h3>Weekly Menu Highlights</h3>
+          <div class="grid three">
+            <div>
+              <h4>Monday-Thursday</h4>
+              <ul>
+                <li>North Indian cuisine</li>
+                <li>South Indian specials</li>
+                <li>Continental options</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Friday-Saturday</h4>
+              <ul>
+                <li>Chinese cuisine</li>
+                <li>Italian dishes</li>
+                <li>Regional specialties</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Sunday</h4>
+              <ul>
+                <li>Special brunch</li>
+                <li>Dessert specials</li>
+                <li>Festival menu</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recreation Facilities -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Recreation Facilities</h2>
+        <div class="grid three">
+          <article class="card">
+            <h3>Common Room</h3>
+            <p>Spacious common areas for relaxation and socializing.</p>
+            <p><strong>Features:</strong> TV, newspapers, magazines, board games</p>
+          </article>
+          <article class="card">
+            <h3>Indoor Games</h3>
+            <p>Indoor games room for entertainment and recreation.</p>
+            <p><strong>Games:</strong> Table tennis, carrom, chess, foosball</p>
+          </article>
+          <article class="card">
+            <h3>Reading Room</h3>
+            <p>Quiet space for reading and studying within the hostel.</p>
+            <p><strong>Features:</strong> Study tables, reference books, peaceful environment</p>
+          </article>
+          <article class="card">
+            <h3>Gymnasium</h3>
+            <p>Well-equipped gym for physical fitness and exercise.</p>
+            <p><strong>Equipment:</strong> Cardio machines, weights, fitness accessories</p>
+          </article>
+          <article class="card">
+            <h3>Multipurpose Hall</h3>
+            <p>Versatile space for events, functions, and gatherings.</p>
+            <p><strong>Uses:</strong> Cultural events, meetings, celebrations, workshops</p>
+          </article>
+          <article class="card">
+            <h3>Outdoor Sports</h3>
+            <p>Outdoor sports facilities within the hostel premises.</p>
+            <p><strong>Facilities:</strong> Badminton court, volleyball court, open gym</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hostel Rules & Regulations -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Hostel Rules & Regulations</h2>
+        <div class="grid two">
+          <div>
+            <h3>General Rules</h3>
+            <ul>
+              <li>Strict adherence to timing schedules</li>
+              <li>No visitors allowed without permission</li>
+              <li>Maintenance of discipline and decorum</li>
+              <li>Regular attendance in college</li>
+              <li>Proper use of hostel facilities</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Safety Guidelines</h3>
+            <ul>
+              <li>No electrical appliances in rooms</li>
+              <li>No smoking or alcohol consumption</li>
+              <li>Fire safety protocols to be followed</li>
+              <li>Emergency contact numbers displayed</li>
+              <li>Regular safety drills conducted</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hostel Admission -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Hostel Admission Process</h2>
+        <div class="card">
+          <div class="grid three">
+            <div>
+              <h3>Application</h3>
+              <p>Submit hostel application form along with college admission documents.</p>
+            </div>
+            <div>
+              <h3>Allocation</h3>
+              <p>Room allocation based on availability and merit.</p>
+            </div>
+            <div>
+              <h3>Payment</h3>
+              <p>Pay hostel fees and security deposit as per schedule.</p>
+            </div>
+            <div>
+              <h3>Documentation</h3>
+              <p>Complete required documentation and medical fitness certificate.</p>
+            </div>
+            <div>
+              <h3>Check-in</h3>
+              <p>Room check-in and orientation on specified date.</p>
+            </div>
+            <div>
+              <h3>Induction</h3>
+              <p>Hostel induction program with rules and facilities tour.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hostel Gallery -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Hostel Gallery</h2>
+        <div class="gallery-grid grid">
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1566076378-c2a6ddb2e6c0?auto=format&fit=crop&w=900&q=80" alt="Hostel Building" />
+            <figcaption>Hostel Building</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1522771732544-29da4e9bf424?auto=format&fit=crop&w=900&q=80" alt="Hostel Room" />
+            <figcaption>Hostel Room</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1559028012-c7547e937d64?auto=format&fit=crop&w=900&q=80" alt="Dining Hall" />
+            <figcaption>Dining Hall</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80" alt="Recreation Room" />
+            <figcaption>Recreation Room</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=900&q=80" alt="Study Room" />
+            <figcaption>Study Room</figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1522771732544-29da4e9bf424?auto=format&fit=crop&w=900&q=80" alt="Hostel Campus" />
+            <figcaption>Hostel Campus</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>BMS College of Engineering</h3>
+        <p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p>
+        <p>Email: admissions@bmsce.ac.in</p>
+        <p>Phone: +91 80 2662 2130</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p><a href="campuslife.html">Back to Campus Life</a></p>
+        <p><a href="campuslife-clubs.html">Student Clubs</a></p>
+        <p><a href="campuslife-facilities.html">Campus Facilities</a></p>
+      </div>
+      <div>
+        <h4>Social</h4>
+        <div class="social-links">
+          <a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

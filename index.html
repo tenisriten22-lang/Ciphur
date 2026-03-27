@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMS College of Engineering | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Announcement Modal -->
+  <div class="modal-overlay" id="announcementModal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" id="closeAnnouncement" aria-label="close">&times;</button>
+      <p class="modal-badge">Admissions Open 2026</p>
+      <h2>BMS College of Engineering</h2>
+      <p>Apply now for UG, PG, and PhD programs. Early applicants receive priority counseling and scholarship review.</p>
+      <button class="btn btn-primary" id="announcementAction">Go to Admission</button>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="navbar">
+      <a class="brand" href="index.html"><img src="images/bms-logo.png" alt="BMS logo" />BMS College of Engineering</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="placements.html">Placements</a></li>
+        <li><a href="campuslife.html">Campus Life</a></li>
+        <li class="dropdown"><a href="department.html">Department</a>
+          <div class="dropdown-menu">
+            <a href="department.html#cse">CSE</a><a href="department.html#ece">ECE</a><a href="department.html#mech">MECH</a>
+            <a href="department.html#civil">CIVIL</a><a href="department.html#ise">ISE</a><a href="department.html#eee">EEE</a>
+          </div>
+        </li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="alumni.html">Alumni</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Slider -->
+    <section class="hero">
+      <div class="hero-slides">
+        <div class="hero-slide active" style="background-image:linear-gradient(120deg, rgba(15,45,98,.66), rgba(190,30,45,.35)), url('images/academics-1.png')"></div>
+        <div class="hero-slide" style="background-image:linear-gradient(120deg, rgba(15,45,98,.66), rgba(190,30,45,.35)), url('images/academics-2.png')"></div>
+        <div class="hero-slide" style="background-image:linear-gradient(120deg, rgba(15,45,98,.66), rgba(190,30,45,.35)), url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1800&q=80')"></div>
+      </div>
+      <div class="hero-content container">
+        <p class="hero-kicker">Innovation. Integrity. Impact.</p>
+        <h1>Welcome to BMS College of Engineering</h1>
+        <p>A professional, future-ready learning ecosystem with strong academics, practical research, and exceptional student outcomes.</p>
+        <a href="admission.html" class="btn btn-primary pulse">Apply for 2026</a>
+      </div>
+      <div class="hero-dots" id="heroDots"></div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Quick Highlights</h2>
+        <div class="grid three">
+          <article class="card"><h3>Top Ranking</h3><p>Recognized for consistent academic quality, outcome-based education, and industry-oriented engineering curriculum.</p></article>
+          <article class="card"><h3>95% Placement</h3><p>High conversion from internship to placement through mentorship, interview readiness, and recruiter partnerships.</p></article>
+          <article class="card"><h3>Top Recruiters</h3><p>Trusted by leading organizations across software, analytics, consulting, product, and core engineering domains.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Department Preview -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Department Preview</h2>
+        <div class="grid three">
+          <article class="card"><h3>CSE</h3><p>AI, data science, and software engineering specialization with modern lab infrastructure.</p></article>
+          <article class="card"><h3>ECE</h3><p>Embedded systems, VLSI, communication networks, and electronics innovation.</p></article>
+          <article class="card"><h3>MECH</h3><p>Manufacturing, robotics, product design, and advanced engineering practice.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Placement Preview -->
+    <section class="section alt reveal" id="placements">
+      <div class="container">
+        <h2>Placement Preview</h2>
+        <div class="stats-grid grid">
+          <div class="stat-card"><span class="counter" data-target="95">0</span><p>Placement %</p></div>
+          <div class="stat-card"><span class="counter" data-target="220">0</span><p>Recruiters</p></div>
+          <div class="stat-card"><span class="counter" data-target="43">0</span><p>Highest LPA</p></div>
+          <div class="stat-card"><span class="counter" data-target="10">0</span><p>Average LPA</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus Life Preview -->
+    <section class="section reveal">
+      <div class="container">
+        <h2>Campus Life Preview</h2>
+        <div class="gallery-grid grid">
+          <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80" alt="sports" class="section-image" /><figcaption>Sports</figcaption></figure>
+          <figure class="gallery-card"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80" alt="cultural" class="section-image" /><figcaption>Cultural Events</figcaption></figure>
+          <figure class="gallery-card"><img src="images/academics-2.png" alt="campus" class="section-image" /><figcaption>Campus Spaces</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section alt reveal">
+      <div class="container">
+        <h2>Student & Alumni Testimonials</h2>
+        <div class="testimonial-slider" id="testimonialSlider">
+          <article class="testimonial active"><p>"BMS prepared me with practical exposure and confidence for global product teams."</p><h4>- Alumni</h4></article>
+          <article class="testimonial"><p>"Excellent labs, committed faculty, and a vibrant campus made my academic journey meaningful."</p><h4>- Student</h4></article>
+          <article class="testimonial"><p>"Career training and internship mentoring significantly improved placement readiness."</p><h4>- Graduate</h4></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to top -->
+  <button id="backToTop" class="back-to-top" aria-label="top">&uarr;</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div><h3>BMS College of Engineering</h3><p>Bull Temple Road, Basavanagudi, Bengaluru, Karnataka 560019</p><p>Email: admissions@bmsce.ac.in</p><p>Phone: +91 80 2662 2130</p></div>
+      <div><h4>Quick Links</h4><p><a href="admission.html">Admission</a></p><p><a href="placements.html">Placements</a></p><p><a href="research.html">Research</a></p></div>
+      <div><h4>Social</h4><div class="social-links"><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">LinkedIn</a></div></div>
+    </div>
+    <p class="footer-note">&copy; 2026 BMS College of Engineering</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
